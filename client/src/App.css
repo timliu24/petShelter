@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.Background {
+  background-image: url("./images/pawprint.png");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

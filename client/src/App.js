@@ -9,7 +9,10 @@ import Error from './components/Error'
 
 function App() {
   return (
+    
+    
     <div className="App">
+      <div class="Background">
       <Router>
         <AllPets path="/"/>
         <PetDetails path="/:_id"/>
@@ -17,7 +20,9 @@ function App() {
         <EditPet path="/edit/:_id"/>
         <Error path="/error"/>
       </Router>
+      </div>
     </div>
+
   );
 }
 
